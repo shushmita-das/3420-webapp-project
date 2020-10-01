@@ -1,0 +1,341 @@
+/*Base styling for all thr pages*/
+#container {/*Styling for the overall page*/
+flex-wrap: wrap;
+justify-content:center;
+align-self:center;
+width: auto;
+border: 1em solid #330066; /*violet*/
+background-color: #fdf5e6; /*off white*/
+/*font-color: #fdf5e6;/*off white*/
+}
+
+img{/*Styling for the movie reel image on top left on the header*/
+	float: left;
+	height:100px;
+	width: 160px;
+	border: .3em solid #a0d6b4; /*light teal*/
+	margin-top: .6em;
+	margin-left: .6em;
+	margin-right: .6em;
+
+}
+
+body{/*base style body*/
+	font-size:100%;
+	/*display: flex;*/
+	border: .5em solid #330066; /*violet*/
+	/*min-width: 640px; /*added*/
+}
+
+
+header{/*base style header*/
+	overflow-y:hidden;
+	padding-bottom: 1em;
+	text-align:left;
+	border-bottom: .5em solid #9370DB; /*dark lavender*/
+}
+
+h1{/*base style h1*/
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 2em;
+	color:#a0d6b4;/*light teal*/
+	padding-left: 5em;
+	}
+.headingOne{
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 2em;
+	color:#a0d6b4;/*light teal*/
+	/* padding-left: 5em; */
+	text-align: center;
+}
+h2{/*base style h2*/
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size:1.4em;
+	color:#330066;/*violet*/
+	padding-left: 7em;
+
+}
+
+
+a{
+  color: #f0af1f;
+}
+
+nav li{/*base style navigation links*/
+	display:inline-block; /*added*/
+	align-items:baseline;
+	/* border: .2em solid #330066;/*violet*/
+	margin: .5em;
+}
+
+nav a{/*base style nav a*/
+	padding: .5em;
+	margin: .5em;
+	width: 150px;
+	border: .2em solid #330066;/*violet*/
+	display: block; /*added*/
+	text-align:center;
+  text-decoration: none;
+  background-color: #a0d6b4; /*light teal*/
+  color:#fff;
+	/*border-radius: .2em;*/
+}
+
+nav a:hover{/*hover effect base style*/
+	padding: .5em;
+	border: .2em solid #a0d6b4;/*light teal*/
+	text-align:center;
+  text-decoration: underline;
+  background-color:#fff;
+  color: #a0d6b4;/*light teal*/
+	/*border-radius: .2em;*/
+}
+
+footer{/*base style footer*/
+	clear:both;
+  background-color: #9370DB;/*dark lavender*/
+  color:#fff;
+  text-align: center;
+	border-top: .7em solid #9370DB;/*dark lavender*/
+	font-style: italic;
+	text-align: center;
+}
+
+/*a{
+  color: #a0d6b4;
+}*/
+
+aside{/*base style aside*/
+	float: left;
+	padding-left: 2em;
+	padding-right: 2em;
+	width: 181.5px;
+	/* border-right:.3em solid #9370DB; */
+}
+.otherAside{
+	/*styling for pages that don't really have much to display on main*/
+	/*login.html and account.html*/
+	float: left;
+	padding-left: 2em;
+	padding-right: 2em;
+	width: 181.5px;
+	border-right:.3em solid #9370DB;
+}
+main{
+	border-color: #9370DB;
+	float: right;
+	border-left: .3em solid #9370DB;/*dark lavender*/
+	width: 59em;
+
+	/* height: 500px; */
+}
+.otherMain{
+	/*different main formatting for account.css and login.css*/
+	/* float:right; */
+	/* display:block; */
+	background: #fdf5e6;
+	border: 5px solid #a0d6b4;
+	width:420px;
+	margin-right: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+  /* margin-left: 380px; */
+	/* margin-top: 25px; */
+	/* align-self: center; */
+	box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+/* Full-width input fields (login.css/account.css) */
+input[type=text], input[type=password] {
+  display: flex;
+  flex-direction: row;
+  width:300px;
+  padding: 10px;
+  margin: 22px 0 22px;
+  background: #f1f1f1;
+}
+/*input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+#input{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+button[type=login], button[type=reset]{
+	display: flex;
+	flex direction: row;
+	width:300px;
+  padding: 10px;
+  margin: 22px 0 22px;
+}
+
+legend{addvid.html styling
+
+  font-weight: bold;
+}
+*/
+fieldset{/*addvid.html styling*/
+	/*Styling the container holding radio buttons & checkboxes*/
+	border: 3px solid #a0d6b4;
+	width: 450px;
+	margin: 2px;
+	height: 80px;
+}
+#addvidform{
+	margin-left: 70px;
+}
+.radiobutton{
+	display: inline-flex;
+	justify-content:flex-start;
+}
+.checkbox{
+	display: inline-block;
+  /*flex-wrap: wrap;
+  flex-direction: row;*/
+	justify-content: space-around;
+}
+
+
+.plot{
+  text-align:justify;
+}
+
+
+/* Set a style for all buttons */
+button{
+	/* align-self: baseline; */
+ outline:none;
+ border-radius:0;
+ padding:15px;
+ border: .2em solid #a0d6b4;
+ background-color: #a0d6b4;
+ color:#fff;
+ font-size:20px;
+ font-weight:bold;
+ text-transform:uppercase;
+ letter-spacing:.1em;
+ /* width: auto; */
+ margin-bottom: 20px;
+}
+button:hover {
+  padding:15px;
+  border: .2em solid #a0d6b4;
+  text-align:center;
+  text-decoration: underline;
+  background-color:#fff;
+  color: #a0d6b4;
+  border-radius: .2em;
+	margin-bottom: 20px;
+}
+
+label{
+	display: inline-block;
+	width:7em;
+}
+
+table{
+	/*index.html styling
+	**displaydetails.html*/
+	display:flex;
+	justify-content:space-around;
+	padding: 1em;
+}
+
+.movieImg{
+	/*index.html styling
+	**displaydetails.html*/
+	/*The movie thumbnail image styling*/
+	height: 210px;
+	width: 150px;
+	border: none;
+}
+
+.moveinfo{
+  margin-top: 80px;
+  padding-left: 60px;
+  display:flex;
+  align-items: center;
+}
+
+td{
+	/*index.html styling
+	**displaydetails.html*/
+	width:auto;
+	Height:auto;
+}
+
+td, figure{
+	/*index.html styling
+	**displaydetails.html*/
+	display:inline-block;
+	padding-top: 10px;
+	/* padding-left: 10px, */
+	/* padding-right: 10px; */
+}
+
+td,figure,figcaption{
+	/*index.html styling
+	**displaydetails.html*/
+	text-align: center;
+}
+
+/*.iconImg{
+	height: 20px;
+	width:18px;
+	border: none;
+	display:flex;
+	align-items: flex-start;
+}*/
+
+td.caption{
+	width: 150px;
+}
+
+i{/*icons in display details page*/
+	color: blue;
+	padding-top: 10px;
+}
+/*.login{
+	login.html styling
+	border: .3em solid #9370DB;/*lavender
+	width: 300px;
+	height: 250px;
+	padding: 40px;
+	position: absolute
+	top:50%
+	left:50%
+	/* transform:translate(50%,50%);
+	background: lavender;
+	text-align:center;
+	}*/
+
+	/*#centerpoint {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    height: 50px;
+    margin-top: -25px;
+    background: yellow;
+		border height: 20px;
+		border width: 50px;
+}*/
+
+hr {/*Account.css*/
+  border: 3px solid #9370DB;
+  margin-bottom: 25px;
+}
+
+
+.error{
+  color:red;
+  font-style: italic;
+}
+
+.noerror{
+  display:none;
+}
